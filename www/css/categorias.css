@@ -1,0 +1,71 @@
+body{
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+.categorias{
+    width: 100%;
+    height: 5vw;
+    display: inline;
+    float: left;
+    background-color: #020202;
+}
+.categoriassubMenu{
+    width: 100%;
+    height: 5vw;
+    display: inline;
+    float: left;
+    background-color: #F4F4F4;
+}
+.categoriassubMenu_Hamburger{
+    width: 9%;
+    height: 5vw;
+    display: inline;
+    float: left;
+    background-color: palevioletred;
+}
+.hamburgerCategorias{
+    width: 29%;
+    height: auto;
+    display: inline;
+    margin: 1vw;
+    margin-left: 2vw;
+    float: left;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .categorias{
+        width: 100%;
+        height: 12vw;
+        display: inline;
+        float: left;
+        background-color: #020202;
+    }
+    .categoriassubMenu{
+        width: 100%;
+        height: 12vw;
+        display: inline;
+        float: left;
+        background-color: #F4F4F4;
+    }
+    .categoriassubMenu_Hamburger{
+        width: 15%;
+        height: 12vw;
+        display: inline;
+        float: left;
+        background-color: palevioletred;
+    }
+    .hamburgerCategorias{
+        width: 41%;
+        height: auto;
+        display: inline;
+        margin: 3vw;
+        margin-left: 4vw;
+        float: left;
+    }
+}
